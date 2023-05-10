@@ -1,0 +1,105 @@
+body {
+  font-family:Space Mono;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 200px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
+h1,h2,h3 {
+  font-family:Space Grotesk;
+  color:#41644A;
+  padding: 10px;
+}
+
+li{
+  display:inline;
+
+}
+ul {
+  padding:0
+}
+
+a{
+  text-decoration: none;
+}
+
+#introduction p {
+  margin-bottom:25px
+}
+
+p {
+  width: 400px;
+  margin: 10px auto;
+}
+#introduction a{
+  text-decoration:none;
+  color: white;
+  font-size:18px;
+  font-weight:bold;
+  background-color: #BA6E6E;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  margin: 25px;
+}
+
+#introduction a:hover{
+  color:#263A29;
+  background-color: #A36060;
+  transition:0.5s ease;
+}
+
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid gold;
+}
+
+.card{
+  background-color:white;
+  padding:10%;
+  width:500px;
+  margin:25px auto;
+  border-radius:10px;
+  border:1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.list-inline i {
+  list-style: none;
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  padding: 0px 20px;
+}
+
+
+/* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
